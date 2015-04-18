@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvSuche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suche nach:"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvSuche"
+        android:layout_marginTop="5dp"
+        android:background="#eeeeee" >
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            
+            <RadioButton
+				android:id="@+id/rbmen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:text="Männer"
+				android:layout_weight="1" />
+            <RadioButton
+                android:id="@+id/rbwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Frauen"/>
+            <RadioButton
+                android:id="@+id/rbboth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" 
+				android:text="Beides"/>
+            
+        </RadioGroup>
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RelativeLayout2"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Suchradius"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvRadius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="30km"
+            android:textStyle="bold" />
+        
+        <SeekBar
+            android:id="@+id/sbRadius"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:max="100"
+            />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Alter"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvAlter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="18 - 35"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+        
+  
+        
+      
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/tvInteressen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Interessen"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvInteressen2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Tennis, Schwimmen, Wandern +"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/tvInteressen"
+            />
+        
+  
+        
+      
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/tvPush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Push Kategorien"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvPush2"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pusch Benachrichtigungen erlauben?"
+            android:layout_below="@+id/tvPush"/>
+        
+        
+        
+        <RadioGroup
+            android:id="@+id/rg2"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/tvPush">
+            
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ja"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nein"
+                android:textSize="14sp" />
+            
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvPush3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tennis, Schwimmen, Wandern +"
+            android:layout_below="@+id/tvPush2"/>
+  
+        
+      
+    </RelativeLayout>
+
+</RelativeLayout>

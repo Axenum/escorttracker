@@ -1,0 +1,9 @@
+.DS_Store
+local.properties
+cache.properties
+.gradle
+app/build
+build
+.idea
+axenum.iml
+app.iml

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="FacebookRegisterConfirmation">Möchtest Du dich wirklich über Facebook registrieren?</string>
+    <string name="Yes">Ja</string>
+    <string name="No">Nein</string>
+    <string name="Loading">Lade...</string>
+    <string name="WaitWhileLoading">Bitte warten...</string>
+    <string name="Confirmation">Bestätigung</string>
+    <string name="Okay">Okay</string>
+    <string name="Error">Fehler</string>
+    <string name="CanNotConnectToFacebook">Es kann leider keine Verbindung zu Facebook aufgebaut werden.</string>
+    <string name="ConnectingWithFacebook">Verbinde mit Facebook</string>
+    <string name="Hint">Hinweis</string>
+    <string name="FacebookLoginWasSuccessful">Einloggen mit Facebook war erfolgreich.</string>
+    <string name="FacebookLoginWasNotSuccessful">Einloggen mit Facebook war NICHT erfolgreich.</string>
+    <string name="StartTitle">Login</string>
+    <string name="Logout">Ausloggen</string>
+    <string name="ReallyLogout">Möchtest Du Dich wirklich ausloggen?</string>
+    <string name="Password">Passwort</string>
+    <string name="PasswordRepeation">Passwort Wiederholung</string>
+    <string name="Username">Benutzername</string>
+    <string name="Register">Registrieren</string>
+    <string name="PleaseEnterYourUsername">Bitte gebe Deinen Usernamen an.</string>
+    <string name="PleaseEnterYourPassword">Bitte gebe Dein Password an.</string>
+    <string name="PleaseEnterYourEmailAddress">Bitte gebe Deine eMail-Adresse an.</string>
+    <string name="YourNewPasswordHasToBeAtLeastXCharactersLong">Das neue Passwort muss mindestens %i Zeichen lang sein.</string>
+    <string name="YourPasswordHasToBeAtLeastXCharactersLong">Das neue Passwort muss mindestens %i Zeichen lang sein.</string>
+    <string name="ThePasswordRepeatDoesNotMatch">Das Passwort und die Passwortwiederholung müssen übereinstimmen.</string>
+    <string name="PleaseEnterAValidEmailAddress">Bitte gebe eine gültige eMail-Adresse an.</string>
+    <string name="CanNotRegisterUser">User konnte nicht registriert werden.</string>
+    <string name="CanNotLoginUser">Einloggen nicht möglich</string>
+    <string name="CanNotLoginDueToInvalidCredentials">Einloggen nicht möglich. Logindaten sind nicht korrekt.</string>
+    <string name="TheUsernameIsAlreadyInUse">Der Bneutzername ist bereits in Verwendung. Bitte einen anderen Usernamen wählen.</string>
+    <string name="Login">Login</string>
+    <string name="RequestNewPassword">Neues Passwort zusenden</string>
+    <string name="PasswordForgottenIntroduction">Du hast Dein Passwort vergessen? Kein Problem. Gebe einfach Deinen Benutzernamen oder Deine eMail-Adresse ein und wir senden Dir einen Link für die Generierung eines neues Passwortes per eMail zu.</string>
+    <string name="PleaseEnterYourUsernameOrEmailAddress">Bitte gebe Deinen Benutzernamen oder Deine eMail-Addresse an.</string>
+    <string name="ForgotPassword">Passwort vergessen</string>
+    <string name="ANewPasswordHasBeenSentToYouByEmail">Ein Link zur Genierung eines neues Passwortes wurde Dir per eMail zugesandt.</string>
+    <string name="Success">Erfolgreich</string>
+    <string name="CanNotRetrieveNewPassword">Kann kein Link für ein neues Passwort zusenden</string>
+
+</resources>
